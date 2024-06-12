@@ -1,28 +1,40 @@
-.footerCard {
-  background-color: powderblue;
-padding: 10px;
-margin: 5px;
-height: 90%;
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: center;
-}
+
 .footer{
-  background-color: tan;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-  width: 95%;
-  height: 20rem;
+background-image: url(img/footerBg.png);
+background-size: cover;
+background-repeat: no-repeat;
+    width: 80%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: auto;
+}
+.footerElements{
+    width: 85%;
+    display: flex  ;
+    gap: 30px;
+    justify-content: space-around;
+}
+.footerCard{
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 17rem;
 }
 .footerIcons{
-  background-color: teal;
-  width: 6rem;
-  height: 6rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: rgb(74, 150, 225);
+    height: 8rem;
+    width: 8rem;
+    margin-top: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
 }

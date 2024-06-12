@@ -1,0 +1,28 @@
+.footerCard {
+  background-color: powderblue;
+padding: 10px;
+margin: 5px;
+height: 90%;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+}
+.footer{
+  background-color: tan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 95%;
+  height: 20rem;
+}
+.footerIcons{
+  background-color: teal;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

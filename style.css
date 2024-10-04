@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: #466fccff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: xx-large;
+    font-family: Valhagreat;
+        letter-spacing: 0.4em;
+    transition: background-color 0.5s ease, color 0.5s ease;
+
+}
+input{
+    background-color: #466fccff;
+    border: 2px solid #466fccff;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    font-family: Robot;
+    font-size: large;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+li{
+    list-style-type:  circle;
+}
+button{
+    background-color: #466fccff;
+    color: black;
+    border: 2px solid #466fccff;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+#countdown{
+    font-size: 50px;
+    transition: color 0.5s ease, font-size 0.5s ease;
+    color: #466fccff;
+}
+.todo-container {
+    text-align: center;
+}
